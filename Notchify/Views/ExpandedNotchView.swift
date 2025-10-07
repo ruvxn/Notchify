@@ -62,7 +62,7 @@ struct ExpandedNotchView: View {
                 case .notifications:
                     NotificationsPlaceholderView()
                 case .chat:
-                    ChatPlaceholderView()
+                    ChatView()
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
